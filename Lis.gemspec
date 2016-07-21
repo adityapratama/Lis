@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["aditya.pratama"]
   spec.email         = ["aditya.pratama.0010@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{"example of clean arciterture"}
+  spec.description   = %q{"example of clean arciterture from this link https://medium.com/@fbzga/clean-architecture-in-ruby-7eb3cd0fc145#.133qa79vd"}
+  spec.homepage      = "http://kobochan.com"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
@@ -29,5 +29,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec"
+  spec.add_development_dependency "rspec", "~> 0"
 end
