@@ -6,8 +6,8 @@ require 'Lis/version'
 Gem::Specification.new do |spec|
   spec.name          = "Lis"
   spec.version       = Lis::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["aditya@zeemi.tv"]
+  spec.authors       = ["aditya.pratama"]
+  spec.email         = ["aditya.pratama.0010@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
