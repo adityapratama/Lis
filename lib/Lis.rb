@@ -1,6 +1,6 @@
 require "Lis/version"
 require "Lis/list_repository/in_memory"
-require "Lis/use_cases/add_list"
+require "Lis/use_cases/list"
 
 module Lis
   class << self
@@ -14,8 +14,16 @@ module Lis
   		@repo ||= ListRepository::InMemory.new
   	end
 
-  	def add_list(title)
-  		UseCases::AddList.add(title)
+    def fetch
+      UseCases::List.fetch
+    end
+
+    def count
+      UseCases::List.count
+    end
+  	
+    def add_list(title)
+  		UseCases::List.add(title)
   	end
   end
 end

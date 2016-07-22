@@ -22,4 +22,15 @@ describe Lis do
   		it { eq(false) }
   	end
   end
+
+  describe '.fetch' do 
+    let(:list) { Lis.add_list("rspec add list") }
+    let(:lists) { Lis.fetch }
+
+    context 'lists count' do
+      it 'should be not 0' do
+        expect(lists.count).to be > 0
+      end
+    end
+  end
 end

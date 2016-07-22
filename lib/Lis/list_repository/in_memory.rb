@@ -6,6 +6,10 @@ module Lis
 				@id = 0
 			end
 
+			def fetch
+				lists
+			end
+
 			def persist(list)
 				@id += 1
 				list.id = @id
